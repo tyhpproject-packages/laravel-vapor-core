@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-vapor-core",
+    "description": "Tyhp type definitions for laravel/vapor-core 2.47.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.47.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-vapor-core-impl": "~2.47.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-vapor-core-impl"
+        }
+    }
+}
